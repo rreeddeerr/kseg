@@ -17,6 +17,7 @@
 <a href="#Measuring">Measuring and Calculating</a><br>
 <a href="#Editing">Editing and Reconstraining</a><br>
 <a href="#Views">Views and Image Exporting</a><br>
+<a href="#Text">Text Hotkey Overview</a><br>
 <a href="#Constructions">Constructions</a><br>
 
 <a name="Walk"></a>
@@ -143,16 +144,16 @@ and deselects all the other ones.
 releasing will select all objects that intersect the dragged rectangle
 and deselect all others.
 
-<li>Holding down shift and left clicking on an object will select the
+<li>Holding down SHIFT and left clicking on an object will select the
 object if it is not already selected and deselect it otherwise.  Other
 objects that may have been selected remain selected.
 
-<li>Holding down shift, pressing the left mouse button on an empty
+<li>Holding down SHIFT, pressing the left mouse button on an empty
 spot, dragging, and releasing will add all of the objects that
 intersect the dragged rectangle to the selection.
 
 <li>In a Construction, you also have the option of selecting objects
-through the Construction list.  You can click or drag or use shift.
+through the Construction list.  You can click or drag or use SHIFT.
 Note that unlike the other methods, this allows you to select
 invisible and non-existent objects.
 
@@ -185,7 +186,7 @@ object that groups all the objects of that type.
 When you select a selection group (or several) in the listbox of the
 selection group manager and click the Select button, all objects of
 that group are selected and all other objects are deselected.  Holding
-shift while clicking the Select button will select the objects in that
+SHIFT while clicking the Select button will select the objects in that
 group without deselecting other objects that may be currently
 selected.  Clicking the Deselect button will deselect only the objects
 in the group.  When you have at least one selected object, the New
@@ -214,7 +215,7 @@ with the document.
 <h2>Constructing</h2>
 
 When new objects are constructed, they are immediately selected and,
-with the exception of points constructed by right-clicking with shift
+with the exception of points constructed by right-clicking with SHIFT
 held down, all other objects are deselected.
 
 <h3>Points</h3>
@@ -834,7 +835,179 @@ valid Construction and a description of the action that makes it
 invalid).
 
 <br><br><a href="#Top">Back to top</a>      
-      
+
+<a name="Text"></a>
+<h2>Text Hotkey Overview</h2>
+
+Although KSEG has support for many mathematical symbols and operations,
+most of them are simply not accessible on standard QWERTY keyboards.
+Instead, KSEG uses hotkeys for any special characters or symbols but
+the thing is that alot of them are exlusive to labels and cannot be
+used in calculations. Having said that, these characters that are
+currently available in KSEG:
+
+<ul>
+
+<li>General Text Shortcuts
+
+<ul>
+<li>Root: CRTL+2</li>
+
+<li>Exponent/Superscript: CRTL+6</li>
+
+<li>Fraction: CRTL+/</li>
+</ul>
+
+</li>
+
+<li>Label-Exclusive Text Shortcuts
+
+<ul>
+<li>Matrix: CTRL+3</li>
+
+<li>Intergal: CTRL+4</li>
+
+<li>Summation: CTRL+5</li>
+
+<li>Product: CTRL+8</li>
+
+<li>Subscript: CTRL+_</li>
+
+<li>Right Arrow: CRTL+></li>
+</ul>
+
+</li>
+
+</ul>
+
+KSEG also supports the greek alphabet (also exclusively for labels).
+To access these, each time you want to enter in a greek character you
+press CTRL+G. This essentially converts all the letters in your
+keyboard into greek ones and you can type them the same way as you do
+the regular ones. To be clear, this only sticks for one character and
+your gonna have enter CTRL+G each & everytime you what to type a
+symbol in greek. For example if you enter <i>CTRL+G</i> and type the
+letter <i>"p"</i>, KSEG will put in the greek letter <i>"&#960;"</i> or
+<i>pi</i>. However, every subsequent <i>"p"</i> will render as a
+regular <i>"p"</i> and will only show as <i>"&#960;"</i> once you enter
+<i>CTRL+G</i> once more.
+
+<ul>
+
+<li>Greek letters (CTRL+G+<i>***</i> )
+
+<ul>
+<li>A: Lowercase Alpha (&#945;)</li>
+
+<li>SHIFT+A: Capital Alpha (&#913;)</li>
+
+<li>B: Lowercase Beta (&#946;)</li>
+
+<li>SHIFT+B: Capital Beta (&#914;)</li>
+
+<li>C: Lowercase Chi (&#967;)</li>
+
+<li>SHIFT+C: Capital Chi (&#935;)</li>
+
+<li>D: Lowercase Delta (&#948;)</li>
+
+<li>SHIFT+D: Capital Delta (&#916;)</li>
+
+<li>E: Lowercase Epsilon (&#949;)</li>
+
+<li>SHIFT+E: Capital Epsilon (&#917;)</li>
+
+<li>F: Symbol Phi (&#981;)</li>
+
+<li>SHIFT+F: Capital Phi (&#934;)</li>
+
+<li>G: Lowercase Gamma (&#947;)</li>
+
+<li>SHIFT+G: Capital Gamma (&#915;)</li>
+
+<li>H: Lowercase Eta (&#951;)</li>
+
+<li>SHIFT+H: Capital Eta (&#919;)</li>
+
+<li>I: Lowercase Iota (&#953;)</li>
+
+<li>SHIFT+I: Capital Iota (&#921;)</li>
+
+<li>J: Lowercase Phi (&#966;)</li>
+
+<li>SHIFT+J: Symbol Script Theta (&#977;)</li>
+
+<li>K: Lowercase Kappa (&#954;)</li>
+
+<li>SHIFT+K: Capital Kappa (&#922;)</li>
+
+<li>L: Lowercase Lambda (&#955;)</li>
+
+<li>SHIFT+L: Capital Lambda (&#923;)</li>
+
+<li>M: Lowercase Mu (&#956;)</li>
+
+<li>SHIFT+M: Capital Mu (&#924;)</li>
+
+<li>N: Lowercase Nu (&#957;)</li>
+
+<li>SHIFT+N: Capital Nu (&#925;)</li>
+
+<li>O: Lowercase Omicron (&#959;)</li>
+
+<li>SHIFT+O: Capital Omicron (&#927;)</li>
+
+<li>P: Lowercase Pi (&#960;)</li>
+
+<li>SHIFT+P: Capital Pi (&#928;)</li>
+
+<li>Q: Lowercase Theta (&#952;)</li>
+
+<li>SHIFT+Q: Capital Theta (&#920;)</li>
+
+<li>R: Lowercase Rho (&#961;)</li>
+
+<li>SHIFT+R: Capital Rho (&#929;)</li>
+
+<li>S: Lowercase Sigma (&#963;)</li>
+
+<li>SHIFT+S: Capital Sigma (&#931;)</li>
+
+<li>T: Lowercase Tau (&#964;)</li>
+
+<li>SHIFT+T: Capital Tau (&#932;)</li>
+
+<li>U: Lowercase Upsilon (&#965;)</li>
+
+<li>SHIFT+U: Capital Upsilon (&#933;)</li>
+
+<li>V: Symbol Omega Pi (&#982;)</li>
+
+<li>SHIFT+V: Lowercase Final Sigma (&#962;)</li>
+
+<li>W: Lowercase Omega (&#969;)</li>
+
+<li>SHIFT+W: Capital Omega (&#937;)</li>
+
+<li>X: Lowercase Xi (&#958;)</li>
+
+<li>SHIFT+X: Capital Xi (&#926;)</li>
+
+<li>Y: Lowercase Psi (&#968;)</li>
+
+<li>SHIFT+Y: Capital Psi (&#936;)</li>
+
+<li>Z: Lowercase Zeta (&#950;)</li>
+
+<li>SHIFT+Z: Capital Zeta (&#918;)</li>
+</ul>
+
+</li>
+
+</ul>
+
+<br><a href="#Top">Back to top</a>
+
 <p align = "right">
 Ilya Baran<br>
 ibaran@mit.edu<br>
@@ -843,4 +1016,4 @@ http://www.mit.edu/~ibaran/
 
 </body>
 </html>
-  
+ 
